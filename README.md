@@ -1,6 +1,6 @@
 # ElasticLog
 
-## abstract 
+## Abstract 
 Elastic Log is a asynchronization log written by C++. It is an efficient (106 w/s entries per second), scalable log service in Linux. In short, there are two features supported by my ElasticLog:  
 + **Optimize the UTC generator**  
 ElasticLog supports UTC time generator to invoke `localtime` every minute. it's much more efficient for users compared with invoking `local_time` every time we generate a log entry.
